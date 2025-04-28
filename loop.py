@@ -1,3 +1,2 @@
-while True:
-    print("This is an infinite loop")
-    
+for j in range(5):
+    print(j)

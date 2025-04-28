@@ -58,7 +58,7 @@ Abdi=input("You'll be playing a game with the computer \n choose between Rock,Pa
 comp=random.choice(["rock","paper","scissor"])
 if Abdi==comp:
     print("DRAW")
-elif Abdi=="rock" and comp =="scisssor":
+elif Abdi=="rock" and comp =="scissor":
     print("Abdi Congratulation\n The computer's schoice : ",comp)
 elif Abdi=="rock" and comp =="paper":
     print("Abdi you lost\n The computer's schoice : ",comp)
@@ -70,3 +70,8 @@ elif Abdi=="scissor" and comp =="rock":
     print("Abdi you lost\n The computer's schoice : ",comp)
 elif Abdi=="scissor" and comp =="paper":
     print("Abdi Congratulation\n The computer's schoice : ",comp)
+
+
+def abdi():
+    print("             Abdi you have potential don't let it go to waste!")
+abdi()
