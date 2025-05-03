@@ -54,24 +54,27 @@
  #   print("3rd number is the Greatest")
             #play rock paper scissors with the computer.
 import random
-Abdi=input("You'll be playing a game with the computer \n choose between Rock,Paper,Scissor: ").lower()
-comp=random.choice(["rock","paper","scissor"])
-if Abdi==comp:
-    print("DRAW")
-elif Abdi=="rock" and comp =="scissor":
-    print("Abdi Congratulation\n The computer's schoice : ",comp)
-elif Abdi=="rock" and comp =="paper":
-    print("Abdi you lost\n The computer's schoice : ",comp)
-elif Abdi=="paper" and comp =="scisssor":
-    print("Abdi you lost\n The computer's schoice : ",comp)
-elif Abdi=="paper" and comp =="rock":
-    print("Abdi Congratulation\n The computer's schoice : ",comp)
-elif Abdi=="scissor" and comp =="rock":
-    print("Abdi you lost\n The computer's schoice : ",comp)
-elif Abdi=="scissor" and comp =="paper":
-    print("Abdi Congratulation\n The computer's schoice : ",comp)
+while True :
+    Abdi=input("You'll be playing a game with the computer \n choose between Rock,Paper,Scissor: ").lower()
+    comp=random.choice(["rock","paper","scissor"])
+    if Abdi==comp:
+        print("DRAW")
+    elif Abdi=="rock" and comp =="scissor":
+        print("Abdi Congratulation\n The computer's schoice : ",comp)
+    elif Abdi=="rock" and comp =="paper":
+        print("Abdi you lost\n The computer's schoice : ",comp)
+    elif Abdi=="paper" and comp =="scisssor":
+        print("Abdi you lost\n The computer's schoice : ",comp)
+    elif Abdi=="paper" and comp =="rock":
+        print("Abdi Congratulation\n The computer's schoice : ",comp)
+    elif Abdi=="scissor" and comp =="rock":
+        print("Abdi you lost\n The computer's schoice : ",comp)
+    elif Abdi=="scissor" and comp =="paper":
+        print("Abdi Congratulation\n The computer's schoice : ",comp)
 
-
-def abdi():
-    print("             Abdi you have potential don't let it go to waste!")
-abdi()
+    loop=input("Type 'quit' if you wanna exit the game. or press enter if you wanna continue ").lower().strip()
+    if loop== "quit":
+        break
+#def abdi():
+ #   print("             Abdi you have potential don't let it go to waste!")
+#abdi()
