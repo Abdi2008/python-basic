@@ -14,7 +14,10 @@
 #def welcome():
  #   print("Welcome to the world of discsipline")
 #welcome()
-def greet(names):
-    print("Hi",names)
-greet("Abdi")
+#def greet(names):
+ #   print("Hi",names)
+#greet("Abdi")
     #def is used to define and give the function any name and open the brackets. After you finish the code you call the code by calling it its name then the (). e.g greet()
+full_name="Abdirahman "
+last_name="Abshir"
+print(full_name.title()+last_name.title())
