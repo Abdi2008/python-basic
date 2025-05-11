@@ -37,6 +37,10 @@ guests=["maryan","mahad","mohamed adan"]
 print("Hey ",guests[0]," you are invited to my wedding")
 print("Hey ",guests[1]," you are invited to my wedding")
 print("Hey ",guests[2]," you are invited to my wedding")
+print("Press ok to continue with the code")     #i've added this particular code so that the whole code doesn't show at once , it needs to be more responsive
+damn= input().lower()           
+if damn == "ok" :   #i need to do some research
+    print("aight")
     #a guest said he cant make it so i gotta change him with another person
 print("\t \t This guest can't make it: ",guests[2].title()," so i have to find a solution")
 del guests[2] #i have deleted the guy who can't make
