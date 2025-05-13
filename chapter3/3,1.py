@@ -49,6 +49,12 @@ print("\t Here's my new updated list ",guests)
 print("Hey ",guests[0].title()," you are invited to my wedding")
 print("Hey ",guests[1].title()," you are invited to my wedding")        #Here are my new invations for the new list
 print("Hey ",guests[2].title()," you are invited to my wedding")
+print("Press ok to continue with the code")
+fire= input().lower()           
+if fire == "ok" :   #i need to do some research
+    print("aight")
+else:
+    print("break")
     # 3-6. More Guests: I have to add more guests since the venue of the wedding is changed
 print("\t I have to add more guests since the venue of the wedding is changed")
 #        Use insert() to add one new guest to the beginning of your list.
@@ -57,6 +63,7 @@ print("\t I have to add more guests since the venue of the wedding is changed")
 guests.insert(0,"abdikani")
 guests.insert(2,"mudi")
 guests.append("ayub")
+print("Number of people who will attend my wedding; ",len(guests))
 print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[0].title())
 print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Md: ",guests[1].title())
 print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[2].title())
@@ -64,6 +71,12 @@ print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guest
 print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[4].title())
 print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[5].title())
         #3-7. Shrinking Guest List:
+print("Press ok to continue with the code")
+gigi= input().lower()           
+if gigi == "ok" :   #i need to do some research
+    print("aight")
+else:
+    print("break")
 print("\t \t \t I CAN ONLY INVITE TWO PEOPLE")
 #remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
 popped=guests.pop(-1)
