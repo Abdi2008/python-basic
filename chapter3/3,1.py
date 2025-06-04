@@ -1,3 +1,9 @@
+name="Albert Einstein "
+filename=input("Input your file name: ")
+filename=filename.removesuffix(".txt")
+message=(name +'once said,\n\t"A person who never made any mistake never tried anything new!"')
+print(message)
+print("and this is the file you are using "+filename)
 #import this #it gives you motivation you need to learn pyhton and how to use it correctly
 #bicycles = ['trek', 'cannondale', 'redline', 'specialized'] 
 #print(bicycles) #python returns all of the list but they have the bracket and strings
