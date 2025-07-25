@@ -72,9 +72,9 @@ while True :
     elif Abdi=="scissor" and comp =="paper":
         print("Abdi Congratulation\n The computer's schoice : ",comp)
 
-    loop=input("Type 'quit' if you wanna exit the game. or press enter if you wanna continue ").lower().strip()
-    if loop== "quit":
-        break
+    # loop=input("Type 'quit' if you wanna exit the game. or press enter if you wanna continue ").lower().strip()
+    # if loop== "quit":
+    #     break
 #def abdi():
  #   print("             Abdi you have potential don't let it go to waste!")
 #abdi()
