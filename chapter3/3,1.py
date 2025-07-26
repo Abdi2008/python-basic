@@ -1,9 +1,9 @@
-name="Albert Einstein "
-filename=input("Input your file name: ")
-filename=filename.removesuffix(".txt")
-message=(name +'once said,\n\t"A person who never made any mistake never tried anything new!"')
-print(message)
-print("and this is the file you are using "+filename)
+# name="Albert Einstein "
+# filename=input("Input your file name: ")
+# filename=filename.removesuffix(".txt")
+# message=(name +'once said,\n\t"A person who never made any mistake never tried anything new!"')
+# print(message)
+# print("and this is the file you are using "+filename)
 #import this #it gives you motivation you need to learn pyhton and how to use it correctly
 #bicycles = ['trek', 'cannondale', 'redline', 'specialized'] 
 #print(bicycles) #python returns all of the list but they have the bracket and strings
@@ -44,59 +44,62 @@ print("Hey ",guests[0]," you are invited to my wedding")
 print("Hey ",guests[1]," you are invited to my wedding")
 print("Hey ",guests[2]," you are invited to my wedding")
 print("Press ok to continue with the code")     #i've added this particular code so that the whole code doesn't show at once , it needs to be more responsive
-damn= input().lower()           
+damn= input().lower()  
+damn.strip()         
 if damn == "ok" :   #i need to do some research
     print("aight")
     #a guest said he cant make it so i gotta change him with another person
-print("\t \t This guest can't make it: ",guests[2].title()," so i have to find a solution")
-del guests[2] #i have deleted the guy who can't make
-guests.insert(2,"nasrudin") # i replaced him with another guy using the insert method
-print("\t Here's my new updated list ",guests)
-print("Hey ",guests[0].title()," you are invited to my wedding")
-print("Hey ",guests[1].title()," you are invited to my wedding")        #Here are my new invations for the new list
-print("Hey ",guests[2].title()," you are invited to my wedding")
-print("Press ok to continue with the code")
-fire= input().lower()           
-if fire == "ok" :   #i need to do some research
-    print("aight")
+    print("\t \t This guest can't make it: ",guests[2].title()," so i have to find a solution")
+    del guests[2] #i have deleted the guy who can't make
+    guests.insert(2,"nasrudin") # i replaced him with another guy using the insert method
+    print("\t Here's my new updated list ",guests)
+    print("Hey ",guests[0].title()," you are invited to my wedding")
+    print("Hey ",guests[1].title()," you are invited to my wedding")        #Here are my new invations for the new list
+    print("Hey ",guests[2].title()," you are invited to my wedding")
 else:
-    print("break")
-    # 3-6. More Guests: I have to add more guests since the venue of the wedding is changed
-print("\t I have to add more guests since the venue of the wedding is changed")
-#        Use insert() to add one new guest to the beginning of your list.
-#       Use insert() to add one new guest to the middle of your list.
-#       Use append() to add one new guest to the end of your list
-guests.insert(0,"abdikani")
-guests.insert(2,"mudi")
-guests.append("ayub")
-print("Number of people who will attend my wedding; ",len(guests))
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[0].title())
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Md: ",guests[1].title())
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[2].title())
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[3].title())
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[4].title())
-print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[5].title())
-        #3-7. Shrinking Guest List:
-print("Press ok to continue with the code")
-gigi= input().lower()           
-if gigi == "ok" :   #i need to do some research
-    print("aight")
-else:
-    print("break")
-print("\t \t \t I CAN ONLY INVITE TWO PEOPLE")
-#remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
-popped=guests.pop(-1)
-print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
-popped=guests.pop(4)
-print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
-popped=guests.pop(3)
-print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
-popped=guests.pop(0)
-print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
-#       remind the ones who are still invited
-print("Hey",guests[0].title()," you're still invited")
-print("Hey",guests[1].title()," you're still invited")
-        #Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program
-del guests[0]
-del guests[0]
-print(guests,"POV the list is empty")
+    print("\t\tGOODBYEE")
+# print("Press ok to continue with the code")
+# fire= input().lower()           
+# if fire == "ok" :   #i need to do some research
+#     print("aight")
+# else:
+#     print("break")
+#     # 3-6. More Guests: I have to add more guests since the venue of the wedding is changed
+# print("\t I have to add more guests since the venue of the wedding is changed")
+# #        Use insert() to add one new guest to the beginning of your list.
+# #       Use insert() to add one new guest to the middle of your list.
+# #       Use append() to add one new guest to the end of your list
+# guests.insert(0,"abdikani")
+# guests.insert(2,"mudi")
+# guests.append("ayub")
+# print("Number of people who will attend my wedding; ",len(guests))
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[0].title())
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Md: ",guests[1].title())
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[2].title())
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[3].title())
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[4].title())
+# print("You're invited to the wedding of Mr.Abdirahman Abshir Welcome Mr: ",guests[5].title())
+#         #3-7. Shrinking Guest List:
+# print("Press ok to continue with the code")
+# gigi= input().lower()           
+# if gigi == "ok" :   #i need to do some research
+#     print("aight")
+# else:
+#     print("break")
+# print("\t \t \t I CAN ONLY INVITE TWO PEOPLE")
+# #remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
+# popped=guests.pop(-1)
+# print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
+# popped=guests.pop(4)
+# print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
+# popped=guests.pop(3)
+# print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
+# popped=guests.pop(0)
+# print("Hey ",popped," i'm sorry i can't invite you since my bride isn't comfortable with many people")
+# #       remind the ones who are still invited
+# print("Hey",guests[0].title()," you're still invited")
+# print("Hey",guests[1].title()," you're still invited")
+#         #Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program
+# del guests[0]
+# del guests[0]
+# print(guests,"POV the list is empty")
