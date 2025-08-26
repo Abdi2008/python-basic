@@ -21,3 +21,4 @@
 #full_name="Abdirahman "
 #last_name="Abshir"
 #print(full_name.title()+last_name.title())
+print("Hello")
