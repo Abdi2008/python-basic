@@ -21,4 +21,7 @@
 #full_name="Abdirahman "
 #last_name="Abshir"
 #print(full_name.title()+last_name.title())
-print("Hello")
+# print("Hello")
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
