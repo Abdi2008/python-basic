@@ -126,9 +126,26 @@
 # # Print results.
 # print("Odd numbers count:", odd_numbers)
 # print("Even numbers count:", even_numbers)
-counter = 5
-while counter != 0:
-    print("Inside the loop.", counter)
-    counter -= 1
-print("Outside the loop.", counter)
+# counter = 5
+# while counter != 0:
+#     print("Inside the loop.", counter)
+#     counter -= 1
+# print("Outside the loop.", counter)
+secret_number = 777
+
+print(
+"""
++================================+
+| Welcome to my game, muggle!    |
+| Enter an integer number        |
+| and guess what number I've     |
+| picked for you.                |
+| So, what is the secret number? |
++================================+
+""")
+usrinput=int(input("Enter the number: "))
+while secret_number!=usrinput:
+    print("Ha ha! You're stuck in my loop!")
+    usrinput=int(input("Enter the number: "))
+print("\tWell done, muggle! You are free now.")
 
