@@ -131,21 +131,31 @@
 #     print("Inside the loop.", counter)
 #     counter -= 1
 # print("Outside the loop.", counter)
-secret_number = 777
+# secret_number = 777
 
-print(
-"""
-+================================+
-| Welcome to my game, muggle!    |
-| Enter an integer number        |
-| and guess what number I've     |
-| picked for you.                |
-| So, what is the secret number? |
-+================================+
-""")
-usrinput=int(input("Enter the number: "))
-while secret_number!=usrinput:
-    print("Ha ha! You're stuck in my loop!")
-    usrinput=int(input("Enter the number: "))
-print("\tWell done, muggle! You are free now.")
+# print(
+# """
+# +================================+
+# | Welcome to my game, muggle!    |
+# | Enter an integer number        |
+# | and guess what number I've     |
+# | picked for you.                |
+# | So, what is the secret number? |
+# +================================+
+# """)
+# usrinput=int(input("Enter the number: "))
+# while secret_number!=usrinput:
+#     print("Ha ha! You're stuck in my loop!")
+#     usrinput=int(input("Enter the number: "))
+# print("\tWell done, muggle! You are free now.")
+import time
+
+# Write a for loop that counts to five.
+for count in range(1,6):
+    # Body of the loop - print the loop iteration number and the word "Mississippi".
+    print(count," Mississippi")
+    # Body of the loop - use: time.sleep(1)
+    
+# Write a print function with the final message.
+print("Ready or not, here I come !")
 
