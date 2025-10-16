@@ -63,3 +63,5 @@
  #   print("\tPassword intermediate")
 #elif 9< len(password) <=12 :
  #   print("Password strong")
+for i in range(0,100,2):
+    print("Multiples of 2: ",i)
