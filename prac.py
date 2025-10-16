@@ -63,6 +63,9 @@
  #   print("\tPassword intermediate")
 #elif 9< len(password) <=12 :
  #   print("Password strong")
-for i in range(10):
-    print(i)
-    i += 1
+# for i in range(10):
+#     print(i)
+#     i += 1
+p=98
+kik=90
+print(p/kik)
