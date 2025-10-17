@@ -217,13 +217,24 @@
 #     if word =="chupacabra":
 #         break
 # print("You've successfully left the loop.")
-user_word = input("Enter a word: ").upper()
-vowels = "AEIOU" # Define all vowels in one string
+# user_word = input("Enter a word: ").upper()
+# vowels = "AEIOU" # Define all vowels in one string
 
-for letter in user_word:
-    # Check if the current letter is *in* the string of vowels
-    if letter in vowels:
-        continue # If it's a vowel, skip the rest of this iteration
+# for letter in user_word:
+#     # Check if the current letter is *in* the string of vowels
+#     if letter in vowels:
+#         continue # If it's a vowel, skip the rest of this iteration
     
-    # If the code reaches here, the letter is a consonant
-    print(letter)
+#     # If the code reaches here, the letter is a consonant
+#     print(letter)
+    #Modify the snippet a bit so that the loop has no chance to execute its body even once:
+# i = 6
+# while i < 5:
+#     print(i)
+#     i += 1
+# else:
+#     print("else:", i)
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
