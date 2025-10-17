@@ -212,8 +212,18 @@
 #     print("You haven't entered any number.")
 # Design a program that uses a while loop and continuously asks the user to enter a word unless the user enters "chupacabra" as the secret exit word, in which case the message "You've successfully left the loop." should be printed to the screen, and the loop should terminate.
 
-while True:
-    word=input("Enter the magic word inorder to exit the loop: ").lower()
-    if word =="chupacabra":
-        break
-print("You've successfully left the loop.")
+# while True:
+#     word=input("Enter the magic word inorder to exit the loop: ").lower()
+#     if word =="chupacabra":
+#         break
+# print("You've successfully left the loop.")
+user_word = input("Enter a word: ").upper()
+vowels = "AEIOU" # Define all vowels in one string
+
+for letter in user_word:
+    # Check if the current letter is *in* the string of vowels
+    if letter in vowels:
+        continue # If it's a vowel, skip the rest of this iteration
+    
+    # If the code reaches here, the letter is a consonant
+    print(letter)
