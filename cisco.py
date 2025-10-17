@@ -192,21 +192,28 @@
 #     print("Number of times you entered a number: ",counter)
 # else:
 #     print("You haven't entered any number.")
-largest_number = -99999999
-counter = 0
+# largest_number = -99999999
+# counter = 0
 
-number = int(input("Enter a number or type -1 to end program: "))
+# number = int(input("Enter a number or type -1 to end program: "))
 
-while number != -1:
-    if number == -1:
-        continue
-    counter += 1
+# while number != -1:
+#     if number == -1:
+#         continue
+#     counter += 1
 
-    if number > largest_number:
-        largest_number = number
-    number = int(input("Enter a number or type -1 to end the program: "))
+#     if number > largest_number:
+#         largest_number = number
+#     number = int(input("Enter a number or type -1 to end the program: "))
 
-if counter:
-    print("The largest number is", largest_number)
-else:
-    print("You haven't entered any number.")
+# if counter:
+#     print("The largest number is", largest_number)
+# else:
+#     print("You haven't entered any number.")
+# Design a program that uses a while loop and continuously asks the user to enter a word unless the user enters "chupacabra" as the secret exit word, in which case the message "You've successfully left the loop." should be printed to the screen, and the loop should terminate.
+
+while True:
+    word=input("Enter the magic word inorder to exit the loop: ").lower()
+    if word =="chupacabra":
+        break
+print("You've successfully left the loop.")
