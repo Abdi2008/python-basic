@@ -238,3 +238,7 @@
 #     print(i)
 # else:
 #     print("else:", i)
+#Create a for loop that counts from 0 to 10, and prints odd numbers to the screen
+for i in range(11):
+    if i%2==1:
+        print(i," is an ODD NUMBER")
