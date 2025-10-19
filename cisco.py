@@ -242,7 +242,25 @@
 # for i in range(11):
 #     if i%2==1:
 #         print(i," is an ODD NUMBER")
-for ch in "john.smith@pythoninstitute.org":
-    if ch == "@":
-        break
-    print(ch,end="")
+# for ch in "john.smith@pythoninstitute.org":
+#     if ch == "@":
+#         break
+#     print(ch,end="")
+# for digit in "0165031806510":
+#     if digit == "0":
+#         print("x", end="")
+#         continue
+#     print(digit, end="")
+# n = 3
+ 
+# while n > 0:
+#     print(n + 1)
+#     n -= 1
+# else:
+#     print(n)
+n = range(4)
+ 
+for num in n:
+    print(num - 1)
+else:
+    print(num)
