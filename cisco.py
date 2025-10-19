@@ -264,5 +264,8 @@
 #     print(num - 1)
 # else:
 #     print(num)
-for i in range(0, 6, 3):
-    print(i)
+# for i in range(0, 6, 3):
+#     print(i)
+i = 1
+j = not not i
+print(i)
