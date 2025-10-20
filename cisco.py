@@ -266,6 +266,9 @@
 #     print(num)
 # for i in range(0, 6, 3):
 #     print(i)
-i = 1
-j = not not i
-print(i)
+# i = 1
+# j = not not i
+# print(i)
+numbers=[1,4,8,99,33,23,12]
+print(numbers)
+print("The total no of values in this variable is: ",len(numbers))
