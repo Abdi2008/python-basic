@@ -321,9 +321,12 @@
 #     my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
  
 # print(my_list)
-lst = [1, 2, 3, 4, 5]
-lst.insert(1, 6)
-del lst[0]
-lst.append(1)
+# lst = [1, 2, 3, 4, 5]
+# lst.insert(1, 6)
+# del lst[0]
+# lst.append(1)
  
-print(lst)
+# print(lst)
+lst = [1, [2, 3], 4]
+print(lst[1])
+print(len(lst))
