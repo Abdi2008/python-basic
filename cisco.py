@@ -327,6 +327,18 @@
 # lst.append(1)
  
 # print(lst)
-lst = [1, [2, 3], 4]
-print(lst[1])
-print(len(lst))
+# lst = [1, [2, 3], 4]
+# print(lst[1])
+# print(len(lst))
+my_list = [32, 40, 10, 21, 9]  # list to sort
+swapped = True  # It's a little fake, we need it to enter the while loop.
+swaped=0
+while swapped:
+    swapped = False  # no swaps so far
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:
+            swapped = True  # a swap occurred!
+            swaped +=1
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+print("Number of times a swap happened : ", swaped)
+print(my_list)
