@@ -345,4 +345,5 @@
     #An Easier way 
 my_li=[1,67,5,3,87,9,3,2,2,4,5,67,87]
 my_li.sort()
+my_li.reverse() # you use them together inorder to get the numbers decsending
 print(my_li)
