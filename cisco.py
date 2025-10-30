@@ -343,7 +343,13 @@
 # print("Number of times a swap happened : ", swaped)
 # print(my_list)
     #An Easier way 
-my_li=[1,67,5,3,87,9,3,2,2,4,5,67,87]
-my_li.sort()
-my_li.reverse() # you use them together inorder to get the numbers decsending
-print(my_li)
+# my_li=[1,67,5,3,87,9,3,2,2,4,5,67,87]
+# my_li.sort()
+# my_li.reverse() # you use them together inorder to get the numbers decsending
+# print(my_li)
+banned_users = ['andrew', 'carolina', 'david'] 
+user = 'marie' 
+if user  not in banned_users: # not in and in can be used to check if a value is in a list
+    print(f"{user.title()}, you can post a response if you wish.")
+else:
+    print("Nahh Chop Rice")
