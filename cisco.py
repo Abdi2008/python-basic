@@ -352,4 +352,4 @@ user = 'marie'
 if user  not in banned_users: # not in and in can be used to check if a value is in a list
     print(f"{user.title()}, you can post a response if you wish.")
 else:
-    print("Nahh Chop Rice")
+    print("Nahh Chop basto")
