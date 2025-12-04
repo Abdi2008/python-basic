@@ -34,20 +34,20 @@
 #greet()
                     #Grade Checker
                     #Take a score (0-100) from the user and print the grade:
-student=input("What's your name? ")
-marks=int(input("Input your marks so that i can give you a Grade \n Pick a number between 0-100: "))
-if marks > 100:
-   print("Choose numbers ranging from 0-100 !!!")
-elif marks >90 <=100:
-   print("A")
-elif marks >80 <=89:
-   print("B")
-elif marks >70 <=79:
-   print("C")
-elif marks >60 <=79:
-   print("D")
-elif marks <60:
-   print("F")
+# student=input("What's your name? ")
+# marks=int(input("Input your marks so that i can give you a Grade \n Pick a number between 0-100: "))
+# if marks > 100:
+#    print("Choose numbers ranging from 0-100 !!!")
+# elif marks >90 <=100:
+#    print("A")
+# elif marks >80 <=89:
+#    print("B")
+# elif marks >70 <=79:
+#    print("C")
+# elif marks >60 <=79:
+#    print("D")
+# elif marks <60:
+#    print("F")
 #       Trying if this works diffrenet
 #print("Enter your password")
 #password=input("Enter your password: ")
@@ -69,3 +69,9 @@ elif marks <60:
 # p=98
 # kik=90
 # print(p/kik)
+WHITE_PAWN = [3,5,6,9]
+row = []
+ 
+for i in range(8):
+    row.append(WHITE_PAWN)
+    print(row)
