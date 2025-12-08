@@ -69,9 +69,15 @@
 # p=98
 # kik=90
 # print(p/kik)
-WHITE_PAWN = [3,5,6,9]
-row = []
+# WHITE_PAWN = [3,5,6,9]
+# row = []
  
-for i in range(8):
-    row.append(WHITE_PAWN)
-    print(row)
+# for i in range(8):
+#     row.append(WHITE_PAWN)
+#     print(row)
+import random
+computer_choice=random.choice(["rock","paper","scissor"])
+human_choice=input("Choose betwwen 'rock' , 'paper' , 'scissor': ").lower
+print(computer_choice)
+if  computer_choice==human_choice:
+    print("DRAW")
