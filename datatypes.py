@@ -12,5 +12,5 @@ print(10-2)
 print(40/5)
 print(4*2)
 
-fav_number=1
+fav_number=100
 print("My favaroiute is : ",fav_number)
