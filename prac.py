@@ -75,9 +75,13 @@
 # for i in range(8):
 #     row.append(WHITE_PAWN)
 #     print(row)
-import random
-computer_choice=random.choice(["rock","paper","scissor"])
-human_choice=input("Choose betwwen 'rock' , 'paper' , 'scissor': ").lower
-print(computer_choice)
-if  computer_choice==human_choice:
-    print("DRAW")
+# import random
+# computer_choice=random.choice(["rock","paper","scissor"])
+# human_choice=input("Choose betwwen 'rock' , 'paper' , 'scissor': ").lower
+# print(computer_choice)
+# if  computer_choice==human_choice:
+#     print("DRAW")
+names=input("What's your name?: ")
+age=int(input("What's your Age?: "))
+if age >  18:
+    print("You are eligible to vote!! ",names)
