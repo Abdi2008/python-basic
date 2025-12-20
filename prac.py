@@ -85,12 +85,20 @@
 # age=int(input("What's your Age?: "))
 # if age >  18:
 #     print("You are eligible to vote!! ",names)
-age=int(input("Enter Your age : "))
-if age < 4:
-    print("The Fee for ",age,"yrs is 2$ ")
-elif age < 18:
-    print("The Fee for ",age,"yrs is 10$ ")
-elif age < 65 :
-    print("The Fee for ",age,"yrs is 35$ ")
-else:
-    print("The Fee for ",age,"yrs is 15$ ")
+# age=int(input("Enter Your age : "))
+# if age < 4:
+#     print("The Fee for ",age,"yrs is 2$ ")
+# elif age < 18:
+#     print("The Fee for ",age,"yrs is 10$ ")
+# elif age < 65 :
+#     print("The Fee for ",age,"yrs is 35$ ")
+# else:
+#     print("The Fee for ",age,"yrs is 15$ ")
+# 5-3. Alien Colors #1: Imagine an alien was just shot down in a game.
+# Create a variable called alien_color and assign it a value of 'green', 'yellow',
+# or 'red'.
+# Write an if statement to test whether the alien’s color is green. If it is, print
+# a message that the player just earned 5 points
+alien_color=["green","yellow","red"]
+if 'green' in alien_color:
+    print("You've earned 5 points")
