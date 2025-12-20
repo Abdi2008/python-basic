@@ -81,7 +81,16 @@
 # print(computer_choice)
 # if  computer_choice==human_choice:
 #     print("DRAW")
-names=input("What's your name?: ")
-age=int(input("What's your Age?: "))
-if age >  18:
-    print("You are eligible to vote!! ",names)
+# names=input("What's your name?: ")
+# age=int(input("What's your Age?: "))
+# if age >  18:
+#     print("You are eligible to vote!! ",names)
+age=int(input("Enter Your age : "))
+if age < 4:
+    print("The Fee for ",age,"yrs is 2$ ")
+elif age < 18:
+    print("The Fee for ",age,"yrs is 10$ ")
+elif age < 65 :
+    print("The Fee for ",age,"yrs is 35$ ")
+else:
+    print("The Fee for ",age,"yrs is 15$ ")
