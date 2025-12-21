@@ -99,6 +99,8 @@
 # or 'red'.
 # Write an if statement to test whether the alien’s color is green. If it is, print
 # a message that the player just earned 5 points
-alien_color=["green","yellow","red"]
-if 'green' in alien_color:
-    print("You've earned 5 points")
+# alien_color=["green","yellow","red"]
+# if 'green' in alien_color:
+#     print("You've earned 5 points")
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
