@@ -102,5 +102,12 @@
 # alien_color=["green","yellow","red"]
 # if 'green' in alien_color:
 #     print("You've earned 5 points")
-thistuple = ("apple", "banana", "cherry")
-print(thistuple)
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple)
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese'] 
+for requested_topping in requested_toppings: 
+    if requested_topping == 'green peppers': 
+        print("Sorry, we are out of green peppers right now.") 
+    else: 
+        print(f"Adding {requested_topping}.") 
+print("\nFinished making your pizza!")
