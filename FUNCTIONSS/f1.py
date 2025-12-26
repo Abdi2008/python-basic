@@ -22,8 +22,35 @@
 # number = 1234
 # message(10)
 # print(number)
-def my_function(a, b, c):
-    print(a, b, c)
+# def my_function(a, b, c):
+#     print(a, b, c)
  
-my_function(1, 2, 3)
+# my_function(1, 2, 3)
+
+# def introduction(first_name, last_name):
+#     print("Hello, my name is", first_name, last_name)
+
+# introduction("Luke", "Skywalker")
+# introduction("Jesse", "Quick")
+# introduction("Clark", "Kent")
+
+# def introduction(first_name, last_name):
+#     print("Hello, my name is", first_name, last_name)
+
+# introduction(first_name = "James", last_name = "Bond")
+# introduction(last_name = "Skywalker", first_name = "Luke")
+# def introduction(first_name, last_name="Smith"):
+#      print("Hello, my name is", first_name, last_name)
+
+# introduction("James")
+# introduction("James", "Doe")
+def happy_new_year(wishes = True):
+    print("\tThree...")
+    print("\t\tTwo...")
+    print("\t\t\tOne...")
+    if not wishes:
+        return
+
+    print("\t\t\t\tHappy New Year!")
+happy_new_year()
 
