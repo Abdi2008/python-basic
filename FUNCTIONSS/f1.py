@@ -44,13 +44,13 @@
 
 # introduction("James")
 # introduction("James", "Doe")
-def happy_new_year(wishes = True):
-    print("\tThree...")
-    print("\t\tTwo...")
-    print("\t\t\tOne...")
-    if not wishes:
-        return
+# def happy_new_year(wishes = True):
+#     print("\tThree...")
+#     print("\t\tTwo...")
+#     print("\t\t\tOne...")
+#     if not wishes:
+#         return
 
-    print("\t\t\t\tHappy New Year!")
-happy_new_year()
+#     print("\t\t\t\tHappy New Year!")
+# happy_new_year()
 
