@@ -8,8 +8,14 @@
 #name="John"
 #for character in name:
     #print(character)
-for alphabets in range(0,100,2):
-    #print(alphabets)
-    if alphabets == 50:
-        continue
-    print(alphabets)
+# for alphabets in range(0,100,2):
+#     #print(alphabets)
+#     if alphabets == 50:
+#         continue
+#     print(alphabets)
+title="This is a Python programming language"
+word="python"
+if word in title:
+    print(f"The Word {word} is in '{title}'")
+else:
+    print(f"The Word {word} is not in '{title}'")
