@@ -15,10 +15,18 @@
 #     print(animal)
 #     print("A "+animal.title()+" can make a great companion")
 # print("\tThese animals are my favourites")
-EMPTY = []
-board = []
+# EMPTY = []
+# board = []
 
-for i in range(8):
-    row = [EMPTY for i in range(8)]
-    board.append(row)
-print(board)
+# for i in range(8):
+#     row = [EMPTY for i in range(8)]
+#     board.append(row)
+# print(board)
+numb=10
+num=0
+sum=0
+while num < numb:
+    print("Numb is greater "+ str(num))
+    sum +=num
+    num +=1
+print(sum)
