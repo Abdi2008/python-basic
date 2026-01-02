@@ -16,4 +16,4 @@ favorite_languages = {
     'edward': 'rust', 
     'phil': 'python', 
     }
-print(favorite_languages)
+print(f"Sarah's Favourite Language is {favorite_languages['sarah'].title()}")
