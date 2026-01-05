@@ -76,4 +76,4 @@ def receba():
     name=input("Enter your name: ")
     age=int(input("Enter your Age: "))
     print(f"Your Name is {name} and your Age is {age}")
-    receba()
+receba()
