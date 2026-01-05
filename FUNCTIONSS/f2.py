@@ -59,16 +59,21 @@
 #         print("OK")
 #     else:
 #         print("Failed")
-def is_prime(num):
-    if num % 2 == 0 :
-        print("Not Prime")
-    elif num %3 ==0:
-        print("Not Prime")
-    else:
-        print("PRIME")
-    # Write your code here.
-    #
-for i in range(1, 20):
-    if is_prime(i + 1):
-        print(i + 1, end=" ")
-print()
+# def is_prime(num):
+#     if num % 2 == 0 :
+#         print("Not Prime")
+#     elif num %3 ==0:
+#         print("Not Prime")
+#     else:
+#         print("PRIME")
+#     # Write your code here.
+#     #
+# for i in range(1, 20):
+#     if is_prime(i + 1):
+#         print(i + 1, end=" ")
+# print()
+def receba():
+    name=input("Enter your name: ")
+    age=int(input("Enter your Age: "))
+    print(f"Your Name is {name} and your Age is {age}")
+    receba()
