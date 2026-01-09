@@ -44,10 +44,19 @@
 #         print(f"num {num} is smaller than numbers {numbers}")
 #         num+=1
 # looping()
-def loops(number):
-    num=1
-    while num < number:
-        print(f"num {num} is smaller than number {number}")
-        num+=1
-loops(6)
+# def loops(number):
+#     num=1
+#     while num < number:
+#         print(f"num {num} is smaller than number {number}")
+#         num+=1
+# loops(6)
 #i've finally understood how function works 
+
+
+# def display_message():
+#     print("I'm Learning Functions in this Chapter")
+# display_message()
+
+def favourite_book(title):
+    print(f"My Favourite book is {title}")
+favourite_book("Alice In Boderland")
