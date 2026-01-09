@@ -53,4 +53,6 @@
 
 #     print("\t\t\t\tHappy New Year!")
 # happy_new_year()
-
+def greet_user():
+    print("Hello")
+greet_user()
