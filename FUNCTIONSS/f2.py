@@ -36,6 +36,18 @@
     
 # # if __name__ == '__main__':
 # main()
-def looping():
-    print("I'm about to loop")
-looping()
+# def looping():
+#     numbers=5
+#     num=2
+#     print("I'm about to loop")
+#     while num < numbers:
+#         print(f"num {num} is smaller than numbers {numbers}")
+#         num+=1
+# looping()
+def loops(number):
+    num=1
+    while num < number:
+        print(f"num {num} is smaller than number {number}")
+        num+=1
+loops(6)
+#i've finally understood how function works 
