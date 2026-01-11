@@ -57,6 +57,10 @@
 #     print("I'm Learning Functions in this Chapter")
 # display_message()
 
-def favourite_book(title):
-    print(f"My Favourite book is {title}")
-favourite_book("Alice In Boderland")
+# def favourite_book(title):
+#     print(f"My Favourite book is {title}")
+# favourite_book("Alice In Boderland")
+def vet(animal_name,gender,species):
+    print(f"This {animal_name} is {gender} is {species}")
+
+vet("CROW","FEMALE","BIRD")
