@@ -60,7 +60,13 @@
 # def favourite_book(title):
 #     print(f"My Favourite book is {title}")
 # favourite_book("Alice In Boderland")
-def vet(animal_name,gender,species):
-    print(f"This {animal_name} is {gender} is {species}")
+# def vet(animal_name,gender,species):
+#     print(f"This {animal_name} is {gender} is {species}")
 
-vet("CROW","FEMALE","BIRD")
+# vet("CROW","FEMALE","BIRD")
+def describe_pet(animal_type, pet_name): 
+    """Display information about a pet.""" 
+    print(f"\nI have a {animal_type}.") 
+    print(f"My {animal_type}'s name is {pet_name.title()}.") 
+describe_pet('hamster', 'harry') 
+describe_pet('dog', 'willie')
