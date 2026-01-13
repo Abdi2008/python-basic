@@ -41,7 +41,7 @@ def looping():
     print("\n")
     while service <= len(aws_services)-1:
         print(f"Using a while loop to list the services: {aws_services[service]}")
-        service+=2
+        service+=3
     # print("\nUsing a While loop to seive through the list")
     # index= len(aws_services)-1
     # while index >0 :
