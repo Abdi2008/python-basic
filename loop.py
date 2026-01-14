@@ -30,21 +30,22 @@
 #     sum +=num
 #     num +=1
 # print(sum)
-def looping():
-    aws_services=["S3","LAMBDA","EC2","RDS","DynamoDB"]
-    print(f"The AWS SERVICES ARE: {aws_services}")
+# def looping():
+#     aws_services=["S3","LAMBDA","EC2","RDS","DynamoDB"]
+#     print(f"The AWS SERVICES ARE: {aws_services}")
 
-#Use a FOR LOOP To Iliterate through the list.
-    for service in aws_services:
-        print(f"Using a for loop to list the services: {service}")
-    service=0
-    print("\n")
-    while service <= len(aws_services)-1:
-        print(f"Using a while loop to list the services: {aws_services[service]}")
-        service+=3
-    # print("\nUsing a While loop to seive through the list")
-    # index= len(aws_services)-1
-    # while index >0 :
-    #     print(f"Aws Services {aws_services[index]}")
-    #     index-=1
-looping()
+# #Use a FOR LOOP To Iliterate through the list.
+#     for service in aws_services:
+#         print(f"Using a for loop to list the services: {service}")
+#     service=0
+#     print("\n")
+#     while service <= len(aws_services)-1:
+#         print(f"Using a while loop to list the services: {aws_services[service]}")
+#         service+=1
+#     # print("\nUsing a While loop to seive through the list")
+#     # index= len(aws_services)-1
+#     # while index >0 :
+#     #     print(f"Aws Services {aws_services[index]}")
+#     #     index-=1
+# looping()
+import boto3
