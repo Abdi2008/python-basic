@@ -91,8 +91,8 @@
 
 # 8-5. Cities: Write a function called describe_city() that accepts the name of
 # a city and its country. 
-def describe_city(name, country="kenya"):
-    print(f"{name.title()} is in {country.title()}")
-describe_city('nairobi')
-describe_city('mombasa')
-describe_city('kismayo')
+# def describe_city(name, country="kenya"):
+#     print(f"{name.title()} is in {country.title()}")
+# describe_city('nairobi')
+# describe_city('mombasa')
+# describe_city('kismayo')
