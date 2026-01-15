@@ -70,8 +70,29 @@
 #     print(f"My {animal_type}'s name is {pet_name.title()}.") 
 # describe_pet('hamster', 'harry') 
 # describe_pet('dog', 'willie')
-def describe_pet(animal_type, pet_name): 
-    """Display information about a pet.""" 
-    print(f"\nI have a {animal_type}.") 
-    print(f"My {animal_type}'s name is {pet_name.title()}.") 
-describe_pet('harry', 'hamster')
+# def describe_pet(animal_type, pet_name): 
+#     """Display information about a pet.""" 
+#     print(f"\nI have a {animal_type}.") 
+#     print(f"My {animal_type}'s name is {pet_name.title()}.") 
+# describe_pet('harry', 'hamster')
+# def describe_pet(animal_type, pet_name='Hamster'): 
+#     """Display information about a pet.""" 
+#     print(f"\nI have a {animal_type}.") 
+#     print(f"My {animal_type}'s name is {pet_name.title()}.") 
+# describe_pet('dog')
+                    #8-3. T-Shirt:
+# def make_shirt(size, message):
+#     print(f"The size of this Shirt is {size} and it conveys this information '{message}'")
+# make_shirt('XL', "I love Python")
+
+# def make_shirt(message, size="Large"):
+#     print(f"The size of this Shirt is {size} and it conveys this information '{message}'")
+# make_shirt("I love Python")
+
+# 8-5. Cities: Write a function called describe_city() that accepts the name of
+# a city and its country. 
+def describe_city(name, country="kenya"):
+    print(f"{name.title()} is in {country.title()}")
+describe_city('nairobi')
+describe_city('mombasa')
+describe_city('kismayo')
