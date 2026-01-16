@@ -48,4 +48,14 @@
 #     #     print(f"Aws Services {aws_services[index]}")
 #     #     index-=1
 # looping()
-import boto3
+# import boto3
+# calls=0
+# while calls<0:
+#     calls+=1
+# print(calls)
+i=1
+sum=0
+while i <=4:
+    sum+=i
+    i+=1
+print(sum)
