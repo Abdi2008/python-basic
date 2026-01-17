@@ -59,7 +59,7 @@
 #     sum+=i
 #     i+=1
 # print(sum)
-def make_album():
+def make_album(artist_name,artist_title):
     album={"album_name": 2017,
            "Song": "Despacito",
            "2019": "Headband"}
