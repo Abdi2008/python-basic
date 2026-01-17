@@ -53,9 +53,15 @@
 # while calls<0:
 #     calls+=1
 # print(calls)
-i=1
-sum=0
-while i <=4:
-    sum+=i
-    i+=1
-print(sum)
+# i=1
+# sum=0
+# while i <=4:
+#     sum+=i
+#     i+=1
+# print(sum)
+def make_album():
+    album={"album_name": 2017,
+           "Song": "Despacito",
+           "2019": "Headband"}
+    print(album)
+make_album()
