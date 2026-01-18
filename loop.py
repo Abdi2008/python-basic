@@ -60,8 +60,8 @@
 #     i+=1
 # print(sum)
 def make_album(artist_name,artist_title):
-    album={"album_name": 2017,
-           "Song": "Despacito",
-           "2019": "Headband"}
-    print(album)
-make_album()
+    music_album={"Artist_name": "Fonsi",
+           "Album_tittle": "Despacito"}
+    artist_title={}
+    
+make_album("receba","Siuuu")
