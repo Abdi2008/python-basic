@@ -1,6 +1,15 @@
-import boto3
+# import boto3
 
-s3=boto3.resource('s3')
+# s3=boto3.resource('s3')
 
-for bucket in s3.buckets.all():
-    print(bucket)
+# for bucket in s3.buckets.all():
+#     print(bucket)
+# Get the service resource
+sqs = boto3.resource('sqs')
+
+# Create the queue. This returns an SQS.Queue instance
+queue = sqs.create_queue(QueueName='test', Attributes={'DelaySeconds': '5'})
+
+# You can now access identifiers and attributes
+print(queue.url)
+print(queue.attributes.get('DelaySeconds'))
