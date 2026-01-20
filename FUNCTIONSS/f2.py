@@ -96,3 +96,9 @@
 # describe_city('nairobi')
 # describe_city('mombasa')
 # describe_city('kismayo')
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
