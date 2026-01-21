@@ -48,7 +48,7 @@ if not instance_exists:
             ]
     )
     instance_id = new_instance[0].id    
-    print(f"Instance named '{instance_name}' with id '{instance_id}' created.")
+    print(f"Instance named '{instance_name}' with id '{instance_id}' Created.")
 
 
 # Stop an instance 
