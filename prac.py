@@ -112,3 +112,5 @@
 #         print(f"Adding {requested_topping}.") 
 # print("\nFinished making your pizza!")
 print("Hello world ! \n "+ str(32))
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
