@@ -15,7 +15,7 @@ def main():
     # Print the recommended AWS service based on the user's requirement
     # Check if the service is not 'Unknown'
     if user_requirement != 'Unknown':
-        print(f"The AWS service required is {aws_service}.")
+        print(f"The AWS service required Is {aws_service}.")
     else:
         print(f"Error: The AWS service is {aws_service}.")
     
